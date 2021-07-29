@@ -1,0 +1,41 @@
+body {
+    padding: 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
+  
+  button, input, select, textarea {
+    font-family: Times 'Courier New', Courier, monospace;
+    font-size: larger;
+    box-sizing: border-box;
+  }
+
+  input {
+    display : block;
+  
+    padding : 0px;
+    margin  : 10px 10px;
+    width   : 90%;
+    height  : 10%;
+  
+    border-right: 1px solid;
+  
+    resize  : none; 
+    
+  }
+
+  textarea {
+    display : block;
+  
+    padding : 100px;
+    margin  : 10px 10px;
+    width   : 90%;
+    height  : 90%;
+  
+    border-right: 1px solid;
+  
+    /* resize  : none; */
+    
+  }
